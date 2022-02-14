@@ -24,7 +24,17 @@
     "prettier"
   ],
   "rules": {
-    "import/no-unresolved": "error"
+    "react/react-in-jsx-scope": "off",
+    "import/no-unresolved": "error",
+    "no-use-before-define": "warn",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".tsx"
+        ]
+      }
+    ]
   },
   "settings": {
     "import/resolver": {
